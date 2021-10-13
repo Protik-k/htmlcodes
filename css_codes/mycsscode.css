@@ -1,0 +1,81 @@
+.pimg1{
+  background-image:url('C:\\Users\\ninad\\OneDrive\\Desktop\\my_website\\html_codes\\child_pic.jpg');
+  min-height:100%;
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  background-attachment:fixed;
+}
+body, html{
+  height:100%;
+  margin:0;
+  font-size:20px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  /* color:#666; */
+}
+
+.section-light{
+  background-image: url(../html_codes/porgi.jpg);
+  min-height:100%;
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.child_s{  position:relative;
+  top:0%;
+  width:100%;
+  text-align:center;
+  color:black;
+  font-size:27px;
+  font-weight: bolder;
+
+}
+.section-light .border{
+
+  /* color:#fff; */
+  padding:20px;
+}
+.flag_{
+  background-image: url(C:\\Users\\ninad\\OneDrive\\Desktop\\my_website\\html_codes\\flag_laddakh.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  background-size: cover;
+  min-height: 100%;
+  opacity: 0.70;
+
+}
+.lake{
+  background-image: url(C:\\Users\\ninad\\OneDrive\\Desktop\\my_website\\html_codes\\lake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  background-size: cover;
+  min-height: 100%;
+  opacity: 0.70;
+  }
+  .water_drop{
+    background-image: url(C:\\Users\\ninad\\OneDrive\\Desktop\\my_website\\html_codes\\waterDropsonWindow.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    min-height: 100%;
+    opacity: 0.70}
+
+@media(max-width:568px){
+  .pimg1, .section-light, .flag_,.lake,.water_drop{
+    background-attachment:scroll;
+  }
